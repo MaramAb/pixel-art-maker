@@ -4,7 +4,7 @@ function init(){
   document.querySelector('#sizePicker').addEventListener('submit', makeGrid);
 }
 
-
+//this function builds the grid according to the size the user entered
 function makeGrid(event) {
 
   event.preventDefault();
